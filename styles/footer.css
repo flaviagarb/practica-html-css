@@ -1,8 +1,15 @@
 .footer {
-  background-color: rgb(226, 124, 162);
-  display: inline-block;
+  background-color: rgb(247, 236, 76);
+  display: inline-flex;
   justify-content: center;
-  padding: 0;
+  width: 100%;
+  padding: 20px;
   gap: 10px;
   margin: 0px;
+}
+
+img {
+  color: rgb(4, 116, 212);
+  width: 300px;
+  height: 300px;
 }

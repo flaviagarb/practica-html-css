@@ -1,0 +1,14 @@
+:root {
+  --main-text-color: rgb(4, 116, 212);
+  --bg-color: #FFF;
+  --main-brand-color: rgb(247, 236, 76);
+  --main-brand-color-light: #398ccc;
+  --border-color: #f9f2b4;
+  --input-bg-color: #8ab4c4;
+  font-size: 16px;
+  font-family: Arial;
+}
+
+a {
+  text-decoration: none;
+}
