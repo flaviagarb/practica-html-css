@@ -8,8 +8,7 @@
   margin: 0px;
 }
 
-img {
-  color: rgb(4, 116, 212);
-  width: 300px;
-  height: 300px;
+.icon {
+  width: 32px;
+  height: 32px;
 }
