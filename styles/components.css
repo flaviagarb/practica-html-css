@@ -7,10 +7,28 @@
   display: inline-block;
   border-radius: 5px;
   border: 1px solid var(--main-brand-color);
+  transition: background-color 0.3s;
+  transition-timing-function: linear;
 
   &.secondary {
     background-color: transparent;
     border: 1px solid var(--main-text-color);
+  }
+}
+
+/*para que se pueda pasar el cursos encima de la pantalla*/
+@media screen and (hover: hover) {
+  .btn {
+    cursor: pointer;
+  }
+
+  /* como se ve cuando le pasas el valor por encima */
+  .btn:hover {
+    background-color: var(--main-brand-color-light);
+  }
+
+  .btn.secondary:hover {
+    background-color: transparent;
   }
 }
 
