@@ -1,0 +1,96 @@
+.skills-banner {
+  margin: 0 auto;
+  max-width: 768px;
+  gap: 10px 30px;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 768px;
+}
+
+.skill-item {
+  width: 100px;
+  height: 100px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 100%;
+  align-items: center;
+}
+
+@media screen and (width > 768px) {
+  .skill-item {
+    width: 100px;
+    height: 100px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 33.3333%;
+    align-items: center;
+  }
+}
+
+.skill-bar {
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--border-color);
+  width: 80%;
+  height: 24px;
+
+  .progress-bar {
+    border-radius: 10px;
+    height: 20px;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    background-color: var(--main-brand-color);
+  }
+}
+
+.skill-85 {
+  animation-name: width-85-animation;
+}
+
+@keyframes width-85-animation {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 85%;
+  }
+}
+
+.skill-60 {
+  animation-name: width-60-animation;
+}
+
+@keyframes width-60-animation {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 60%;
+  }
+}
+
+.skill-100 {
+  animation-name: width-100-animation;
+}
+
+@keyframes width-100-animation {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}

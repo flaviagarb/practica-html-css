@@ -13,6 +13,12 @@ a {
   text-decoration: none;
 }
 
+.main {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 768px;
+}
+
 .main-bg {
   background-color: white;
   background-color: rgb(0, 0, 0);
@@ -34,9 +40,6 @@ h2,
 h3,
 h4,
 p {
-  margin: 20px;
-  margin-left: 100px;
-  margin-right: 100px;
   margin-top: 0;
   text-align: justify;
 }
@@ -44,4 +47,17 @@ p {
 p {
   color: rgb(0, 0, 0);
   margin-bottom: 1rem;
+}
+
+
+.section-padding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+@media screen and (width > 768px) {
+  .section-padding {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
