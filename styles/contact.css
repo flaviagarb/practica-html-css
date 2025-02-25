@@ -1,16 +1,10 @@
-.contact {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
 .contact-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  align-content: space-between;
+  align-content: flex-start;
   width: 100%;
   margin: 0 auto;
   max-width: 768px;
@@ -21,7 +15,18 @@
   flex-shrink: 0;
   flex-basis: 100%;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
+
+  label {
+    margin-bottom: 0.5rem;
+  }
+
+  input {
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: var(--input-bg-color);
+  }
 }
 
 @media screen and (width > 768px) {
@@ -30,4 +35,25 @@
     margin-bottom: 20px;
     padding: 0 15px 0 0;
   }
+}
+
+::placeholder {
+  color: var(--main-text-color)
+}
+
+.form-element {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+
+  textarea {
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: var(--input-bg-color);
+  }
+}
+
+.contact-input-width {
+  width: 100%;
 }

@@ -13,6 +13,7 @@
   &.secondary {
     background-color: transparent;
     border: 1px solid var(--main-text-color);
+    margin: 1rem;
   }
 }
 

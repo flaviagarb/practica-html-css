@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="./styles/components.css">
     <link rel="stylesheet" href="./styles/footer.css">
     <link rel="stylesheet" href="./styles/header.css">
-    <link rel="stylesheet" href="./styles/info.css">
     <link rel="stylesheet" href="./styles/shows.css">
     <link rel="stylesheet" href="./styles/projects.css">
     <link rel="stylesheet" href="./styles/skills.css">
@@ -94,53 +93,52 @@
                 <p class="heading-3">Portfolio Nick Miller</p>
             </div>
         </section>
-        <section class="contact">
+        <section class="contact section-padding">
             <h2>Contact me!</h2>
             <form action="./contacto" method="post" novalidate>
                 <div class="contact-container">
                     <div class="contact-item">
                         <label for="name">Add your name</label>
-                        <input type="name" name="name" id="name">
+                        <input class="contact-input-width" type="name" name="name" id="name">
                     </div>
                     <div class="contact-item">
                         <label for="surname">Add your surname</label>
-                        <input type="surname" name="surname" id="surname">
+                        <input class="contact-input-width" type="surname" name="surname" id="surname">
                     </div>
                     <div class="contact-item">
                         <label for="telephone">Add your telephone</label>
-                        <input type="telephone" name="telephone" id="telephone">
+                        <input class="contact-input-width" type="telephone" name="telephone" id="telephone">
                     </div>
-                </div>
-                <div class="contact-item">
-                    <label for="github">Add your github link</label>
-                    <input type="github" name="github" id="github">
-                </div>
-                <div class="form-element">
-                    <fieldset>
-                        <legend>How did you meet me?</legend>
-                        <label for="yoga">In a yoga class</label>
-                        <input required type="radio" name="meet" id="yoga">
-                        <label for="drink">I hit you up with a drink</label>
-                        <input required type="radio" name="meet" id="drink">
-                        <label for="drink">At the park</label>
-                        <input required type="radio" name="meet" id="park">
-                        <label for="pepperwood">You met Pepperwood</label>
-                        <input required type="radio" name="meet" id="pepperwood">
-                    </fieldset>
-                </div>
-                <div class="form-element">
-                    <label for="moreInfo">Add more information</label>
-                    <textarea required name="moreInfo" id="moreInfo" rows="10"
-                        placeholder="Write here what else you want to know!" maxlength="20"></textarea>
-                </div>
-                <div class="form-element row">
-                    <label for="newsletter">Subscribe to the newsletter</label>
-                    <input type="checkbox" name="newsletter" id="newsletter">
-                </div>
-                <div>
-                    <input class="btn secondary" type="reset" value="Reset">
-                    <button class="btn" type="submit">Enviar</button>
-                </div>
+                    <div class="contact-item">
+                        <label for="github">Add your github link</label>
+                        <input class="contact-input-width" type="github" name="github" id="github">
+                    </div>
+                    <div class="form-element">
+                        <fieldset>
+                            <legend>How did you meet me?</legend>
+                            <label for="yoga">In a yoga class</label>
+                            <input required type="radio" name="meet" id="yoga">
+                            <label for="drink">I hit you up with a drink</label>
+                            <input required type="radio" name="meet" id="drink">
+                            <label for="drink">At the park</label>
+                            <input required type="radio" name="meet" id="park">
+                            <label for="pepperwood">You met Pepperwood</label>
+                            <input required type="radio" name="meet" id="pepperwood">
+                        </fieldset>
+                    </div>
+                    <div class="form-element">
+                        <label for="moreInfo">Add more information</label>
+                        <textarea required name="moreInfo" id="moreInfo" rows="10"
+                            placeholder="Write here what else you want to know!" maxlength="20"></textarea>
+                    </div>
+                    <div class="form-element row">
+                        <input type="checkbox" name="newsletter" id="newsletter">
+                        <label for="newsletter">Subscribe to the newsletter</label>
+                    </div>
+                    <div>
+                        <button class="btn" type="submit">Enviar</button>
+                        <input class="btn secondary" type="reset" value="Reset">
+                    </div>
             </form>
         </section>
     </main>
