@@ -1,0 +1,33 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 768px;
+}
+
+.contact-item {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 100%;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+@media screen and (width > 768px) {
+  .contact-item {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+    padding: 0 15px 0 0;
+  }
+}

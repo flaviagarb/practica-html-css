@@ -15,7 +15,9 @@
     <link rel="stylesheet" href="./styles/projects.css">
     <link rel="stylesheet" href="./styles/skills.css">
     <link rel="stylesheet" href="./styles/banner.css">
+    <link rel="stylesheet" href="./styles/contact.css">
 </head>
+
 
 <body class="main-bg">
     <header class="header">
@@ -29,7 +31,7 @@
                     <a class="btn hide" href="#title">Skills</a>
                 </li>
                 <li>
-                    <a class="btn hide" href="./contact.html">Contact</a>
+                    <a class="btn hide" href="#contact">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -86,13 +88,62 @@
                 </div>
             </div>
         </section>
+        <section class="banner">
+            <div class="image"></div>
+            <div class="content">
+                <p class="heading-3">Portfolio Nick Miller</p>
+            </div>
+        </section>
+        <section class="contact">
+            <h2>Contact me!</h2>
+            <form action="./contacto" method="post" novalidate>
+                <div class="contact-container">
+                    <div class="contact-item">
+                        <label for="name">Add your name</label>
+                        <input type="name" name="name" id="name">
+                    </div>
+                    <div class="contact-item">
+                        <label for="surname">Add your surname</label>
+                        <input type="surname" name="surname" id="surname">
+                    </div>
+                    <div class="contact-item">
+                        <label for="telephone">Add your telephone</label>
+                        <input type="telephone" name="telephone" id="telephone">
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <label for="github">Add your github link</label>
+                    <input type="github" name="github" id="github">
+                </div>
+                <div class="form-element">
+                    <fieldset>
+                        <legend>How did you meet me?</legend>
+                        <label for="yoga">In a yoga class</label>
+                        <input required type="radio" name="meet" id="yoga">
+                        <label for="drink">I hit you up with a drink</label>
+                        <input required type="radio" name="meet" id="drink">
+                        <label for="drink">At the park</label>
+                        <input required type="radio" name="meet" id="park">
+                        <label for="pepperwood">You met Pepperwood</label>
+                        <input required type="radio" name="meet" id="pepperwood">
+                    </fieldset>
+                </div>
+                <div class="form-element">
+                    <label for="moreInfo">Add more information</label>
+                    <textarea required name="moreInfo" id="moreInfo" rows="10"
+                        placeholder="Write here what else you want to know!" maxlength="20"></textarea>
+                </div>
+                <div class="form-element row">
+                    <label for="newsletter">Subscribe to the newsletter</label>
+                    <input type="checkbox" name="newsletter" id="newsletter">
+                </div>
+                <div>
+                    <input class="btn secondary" type="reset" value="Reset">
+                    <button class="btn" type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
     </main>
-    <section class="banner">
-        <div class="image"></div>
-        <div class="content">
-            <p class="heading-3">Portfolio Nick Miller</p>
-        </div>
-    </section>
     <footer class="footer">
         <div>
             <a href="https://github.com/flaviagarb" target="_blank" rel="noopener"><img class="icon"
