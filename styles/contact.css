@@ -18,6 +18,7 @@
   margin-bottom: 1rem;
 
   label {
+    color: var(--main-text-color);
     margin-bottom: 0.5rem;
   }
 
@@ -41,19 +42,26 @@
   color: var(--main-text-color)
 }
 
+.contact-input-width {
+  width: 100%;
+}
+
 .form-element {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 1rem;
+  width: 100%;
+  margin-bottom: 20px;
+  line-height: 32px;
+
+  span {
+    color: var(--main-text-color);
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
 
   textarea {
     border: none;
     padding: 1rem;
     border-radius: 5px;
     background-color: var(--input-bg-color);
+    width: 100%;
   }
-}
-
-.contact-input-width {
-  width: 100%;
 }

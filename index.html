@@ -50,37 +50,37 @@
             <h2>Skills</h2>
             <div class="skills-container">
                 <div class="skill-item">
-                    <span>Grumpy</span>
+                    <span class="skill-title">Grumpy</span>
                     <div class="skill-bar">
                         <div class="progress-bar skill-85"></div>
                     </div>
                 </div>
                 <div class="skill-item">
-                    <span>Sarcastic</span>
+                    <span class="skill-title">Sarcastic</span>
                     <div class="skill-bar">
                         <div class="progress-bar skill-60"></div>
                     </div>
                 </div>
                 <div class="skill-item">
-                    <span>Lazy</span>
+                    <span class="skill-title">Lazy</span>
                     <div class="skill-bar">
                         <div class="progress-bar skill-100"></div>
                     </div>
                 </div>
                 <div class="skill-item">
-                    <span>Down-to-earth</span>
+                    <span class="skill-title">Down-to-earth</span>
                     <div class="skill-bar">
                         <div class="progress-bar skill-60"></div>
                     </div>
                 </div>
                 <div class="skill-item">
-                    <span>Self-deprecating</span>
+                    <span class="skill-title">Self-deprecating</span>
                     <div class="skill-bar">
                         <div class="progress-bar skill-100"></div>
                     </div>
                 </div>
                 <div class="skill-item">
-                    <span>Misanthropic</span>
+                    <span class="skill-title">Misanthropic</span>
                     <div class="skill-bar">
                         <div class="progress-bar skill-85"></div>
                     </div>
@@ -99,39 +99,37 @@
                 <div class="contact-container">
                     <div class="contact-item">
                         <label for="name">Add your name</label>
-                        <input class="contact-input-width" type="name" name="name" id="name">
+                        <input class="contact-input-width" type="text" name="name" id="name">
                     </div>
                     <div class="contact-item">
                         <label for="surname">Add your surname</label>
-                        <input class="contact-input-width" type="surname" name="surname" id="surname">
+                        <input class="contact-input-width" type="text" name="surname" id="surname">
                     </div>
                     <div class="contact-item">
                         <label for="telephone">Add your telephone</label>
-                        <input class="contact-input-width" type="telephone" name="telephone" id="telephone">
+                        <input class="contact-input-width" type="tel" name="telephone" id="telephone">
                     </div>
                     <div class="contact-item">
                         <label for="github">Add your github link</label>
-                        <input class="contact-input-width" type="github" name="github" id="github">
+                        <input class="contact-input-width" type="url" name="github" id="github">
                     </div>
                     <div class="form-element">
-                        <fieldset>
-                            <legend>How did you meet me?</legend>
-                            <label for="yoga">In a yoga class</label>
-                            <input required type="radio" name="meet" id="yoga">
-                            <label for="drink">I hit you up with a drink</label>
-                            <input required type="radio" name="meet" id="drink">
-                            <label for="drink">At the park</label>
-                            <input required type="radio" name="meet" id="park">
-                            <label for="pepperwood">You met Pepperwood</label>
-                            <input required type="radio" name="meet" id="pepperwood">
-                        </fieldset>
+                        <span>How did you meet me?</span><br>
+                        <label for="yoga">In a yoga class</label>
+                        <input required type="radio" name="meet" id="yoga"><br>
+                        <label for="drink">I hit you up with a drink</label>
+                        <input required type="radio" name="meet" id="drink"><br>
+                        <label for="park">At the park</label>
+                        <input required type="radio" name="meet" id="park"><br>
+                        <label for="pepperwood">You met Pepperwood</label>
+                        <input required type="radio" name="meet" id="pepperwood"><br>
                     </div>
                     <div class="form-element">
-                        <label for="moreInfo">Add more information</label>
+                        <label for="moreInfo">Add more information</label><br>
                         <textarea required name="moreInfo" id="moreInfo" rows="10"
                             placeholder="Write here what else you want to know!" maxlength="20"></textarea>
                     </div>
-                    <div class="form-element row">
+                    <div class="form-element">
                         <input type="checkbox" name="newsletter" id="newsletter">
                         <label for="newsletter">Subscribe to the newsletter</label>
                     </div>

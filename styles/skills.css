@@ -24,6 +24,11 @@
   margin-bottom: 10px;
 }
 
+.skill-title {
+  color: black;
+  font-weight: 600;
+}
+
 @media screen and (width > 768px) {
   .skill-item {
     flex-basis: 33.3333%;
