@@ -20,6 +20,7 @@
   label {
     color: var(--main-text-color);
     margin-bottom: 0.5rem;
+    font-weight: 600;
   }
 
   input {
@@ -64,4 +65,8 @@
     background-color: var(--input-bg-color);
     width: 100%;
   }
+}
+
+.special-typo {
+  font-weight: 600;
 }
