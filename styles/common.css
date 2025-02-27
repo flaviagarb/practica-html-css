@@ -59,16 +59,13 @@ p {
   margin-bottom: 1rem;
 }
 
+
 .section-padding {
   padding-left: 0px;
   padding-right: 0px;
 }
 
 @media screen and (width > 768px) {
-  .hide {
-    display: block;
-  }
-
   .section-padding {
     padding-left: 40px;
     padding-right: 40px;

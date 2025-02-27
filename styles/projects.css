@@ -1,6 +1,6 @@
-.list {
+.project-list {
   list-style: none;
-  margin: 0;
+  margin: 20px auto;
   padding: 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
