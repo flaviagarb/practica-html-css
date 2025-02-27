@@ -2,13 +2,37 @@
   list-style: none;
   margin: 0;
   padding: 0;
-
-  img {
-    width: 100%;
-  }
-
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 20px;
   padding: 5px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.video-container {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.fade-in {
+  opacity: 1;
+  animation-name: fadeIn;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 10%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
 }
