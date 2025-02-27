@@ -115,7 +115,8 @@
                     </div>
                     <div class="contact-item">
                         <label for="github">Add your github link</label>
-                        <input class="contact-input-width" type="url" name="github" id="github">
+                        <input class="contact-input-width" required type="text" name="github" id="github"
+                            autocomplete="off" pattern="^@[^\s]+" title="Expected format @username">
                     </div>
                     <div class="form-element">
                         <span>How did you meet me?</span><br>
@@ -131,7 +132,7 @@
                     <div class="form-element">
                         <label class="special-typo" for="moreInfo">Add more information</label><br>
                         <textarea required name="moreInfo" id="moreInfo" rows="10"
-                            placeholder="Write here what else you want to know!" maxlength="20"></textarea>
+                            placeholder="Write here what else you want to know!" maxlength="180"></textarea>
                     </div>
                     <div class="form-element">
                         <input type="checkbox" name="newsletter" id="newsletter">
