@@ -1,0 +1,52 @@
+.menu {
+  position: absolute;
+  top: 78px;
+  right: 0;
+  background-color: var(--main-brand-color);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      padding: 10px 20px;
+      border-bottom-style: solid;
+      border-color: var(--main-text-color);
+      text-align: center;
+
+      a {
+        text-decoration: none;
+        color: var(--main-text-color);
+      }
+    }
+  }
+}
+
+.menu-button {
+  color: var(--main-text-color);
+  background-color: var(--main-brand-color);
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 1px;
+  border: 0.5px solid var(--main-brand-color);
+  cursor: pointer;
+}
+
+.menu-button+input {
+  display: none;
+}
+
+.menu-button-input[type="checkbox"]:checked~.menu {
+  display: inline;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-container {
+    display: none;
+  }
+}
