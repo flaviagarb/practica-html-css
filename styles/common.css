@@ -74,3 +74,9 @@ p {
 figure {
   margin: 0;
 }
+
+.error-image {
+  img {
+    width: 100%;
+  }
+}
